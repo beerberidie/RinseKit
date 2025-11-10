@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibe-sweeper"
+version = "0.1.0"
+description = "CLI tool to detect and clean up AI-generated code patterns and vibe-coded repositories."
+authors = [
+  { name = "Garason", email = "168136015+beerberidie@users.noreply.github.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["cli", "code-quality", "ai-detection", "linting", "code-cleanup", "static-analysis"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Quality Assurance",
+  "Topic :: Software Development :: Testing",
+  "Environment :: Console",
+]
+dependencies = [
+  "typer>=0.12.0",
+  "pyyaml>=6.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/beerberidie/RinseKit"
+Repository = "https://github.com/beerberidie/RinseKit"
+Issues = "https://github.com/beerberidie/RinseKit/issues"
+
+[project.scripts]
+"vibe-sweeper" = "vibe_sweeper.cli:app"

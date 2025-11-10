@@ -1,0 +1,5 @@
+ai_phrases:
+  - "as an ai language model"
+  - "in this code snippet"
+  - "this function is responsible for"
+max_comment_block_lines: 15

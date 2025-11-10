@@ -1,0 +1,9 @@
+ai_phrases:
+  - "as an ai language model"
+  - "in this code snippet"
+  - "this function is responsible for"
+  - "in this function, we will"
+  - "i'm sorry, but"
+  - "as a large language model"
+
+max_comment_block_lines: 20
